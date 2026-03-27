@@ -3,13 +3,15 @@ import cors from 'cors';
 
 const app = express();
 
+// ✅ CORS FIX (IMPORTANT)
 app.use(cors({
-  origin: 'http://localhost:3004',
+  origin: "*", // deploy ke liye open rakho (baad me restrict kar sakte ho)
   credentials: true
 }));
 
 app.use(express.json());
 
+// Dummy DB
 let businesses = [
   {
     id: "1",
@@ -32,6 +34,8 @@ let businesses = [
     created_at: new Date().toISOString()
   }
 ];
+
+// ✅ APIs
 
 app.get('/api/centers', (req, res) => {
   res.json([
@@ -85,8 +89,14 @@ app.put('/api/admin/businesses', (req, res) => {
   res.json({ success: true });
 });
 
-const PORT = 3001;
+// ✅ ROOT ROUTE (health check)
+app.get('/', (req, res) => {
+  res.send("Backend running 🚀");
+});
+
+// ✅ PORT FIX (VERY IMPORTANT)
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
