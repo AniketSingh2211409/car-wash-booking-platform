@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Wallet as WalletIcon, RefreshCw, Search, Filter, CheckCircle, ArrowUpRight, DollarSign, Loader2 } from 'lucide-react';
 import axios from 'axios';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import api from '../../lib/api';
 
 interface BusinessWallet {

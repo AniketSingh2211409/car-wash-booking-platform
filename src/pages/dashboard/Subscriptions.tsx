@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Edit2, CreditCard, Loader2, Check, X, Calendar, Shield, Zap, ArrowRight, Info } from 'lucide-react';
 import api from '../../lib/api';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
 
 interface Subscription {

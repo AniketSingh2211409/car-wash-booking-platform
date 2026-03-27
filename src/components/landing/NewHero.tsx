@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldCheck, Zap, ArrowRight, Play, Star, Car } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 

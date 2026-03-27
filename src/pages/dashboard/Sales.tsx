@@ -23,7 +23,7 @@ import {
   Globe,
   History
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import api from '../../lib/api';
 import { cn } from '../../lib/utils';
 import { format } from 'date-fns';

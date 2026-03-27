@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Search, Filter, FileText, Trash2, CheckCircle, XCircle, Loader2, DollarSign, Calendar, Tag, Receipt, ArrowUpRight, X } from 'lucide-react';
 import axios from 'axios';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
 import toast from 'react-hot-toast';
 

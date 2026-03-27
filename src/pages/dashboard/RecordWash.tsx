@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, User, Car, CreditCard, CheckCircle2, RefreshCw, Loader2, DollarSign, ArrowRight, Smartphone, ShieldCheck, Zap } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
 import api from '../../lib/api';
 

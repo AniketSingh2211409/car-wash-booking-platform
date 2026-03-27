@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Wallet as WalletIcon, ArrowUpRight, RefreshCw, CreditCard, DollarSign, FileText, Download, Loader2, TrendingUp } from 'lucide-react';
 import api from '../../lib/api';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
 
 interface WalletData {

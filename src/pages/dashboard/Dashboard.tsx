@@ -23,7 +23,7 @@ import {
   Area, 
   AreaChart 
 } from 'recharts';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { cn } from '../../lib/utils';
 import { useLanguage } from '../../contexts/LanguageContext';

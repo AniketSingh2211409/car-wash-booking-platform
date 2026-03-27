@@ -7,7 +7,7 @@ import {
   X,
   FileText
 } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import api from '../../../lib/api';
 import { cn } from '../../../lib/utils';
 import toast from 'react-hot-toast';

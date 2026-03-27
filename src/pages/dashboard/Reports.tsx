@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Download, TrendingUp, DollarSign, Percent, Calculator, Loader2, BarChart3, PieChart, ArrowUpRight, Info } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, AreaChart, Area } from 'recharts';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import api from '../../lib/api';
 import { cn } from '../../lib/utils';
 

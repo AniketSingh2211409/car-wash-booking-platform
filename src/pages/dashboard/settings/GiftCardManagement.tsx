@@ -12,7 +12,7 @@ import {
   Tag,
   CreditCard
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import api from '../../../lib/api';
 import { cn } from '../../../lib/utils';
 import toast from 'react-hot-toast';

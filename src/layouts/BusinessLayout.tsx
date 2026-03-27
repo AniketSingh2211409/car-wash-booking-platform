@@ -17,7 +17,7 @@ import {
   Globe
 } from 'lucide-react';
 import { cn } from '../lib/utils';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import NotificationBell from '../components/NotificationBell';
 import { useLanguage } from '../contexts/LanguageContext';
 

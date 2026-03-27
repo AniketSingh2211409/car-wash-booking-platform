@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Check, X, Clock, User, Car, Loader2, Search, Filter, Calendar, Bell, ArrowLeft, CheckCircle2, XCircle, Globe, Smartphone, Hash, Maximize2 } from 'lucide-react';
 import api from '../../lib/api';
 import { cn } from '../../lib/utils';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import toast from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../../contexts/LanguageContext';
